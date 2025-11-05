@@ -1,0 +1,16 @@
+# 训练环境
+ultralytics>=8.0.200
+torch>=2.1.0
+torchvision>=0.16.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+pyyaml>=6.0
+albumentations>=1.3.0
+
+# 导出与量化
+onnx>=1.15.0
+onnxruntime>=1.16.0
+
+# 部署（树莓派上只需这两行）
+# onnxruntime>=1.16.0
+# paho-mqtt>=1.6.0

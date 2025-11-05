@@ -1,0 +1,37 @@
+# 数据集（体积大，按 README 自行下载）
+dataset/images/
+dataset/labels/
+*.jpg
+*.jpeg
+*.png
+!train/results.png
+!train/confusion_matrix.png
+!docs/*.png
+
+# 模型权重
+*.pt
+*.pth
+*.onnx
+*.engine
+runs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# 异常帧存档
+frames/
+output/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# 系统
+.DS_Store
+Thumbs.db
