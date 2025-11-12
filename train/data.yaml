@@ -1,0 +1,15 @@
+# YOLOv8 数据集配置
+# 路径相对于本文件所在目录
+
+path: ../dataset
+train: images/train
+val: images/val
+
+# 类别数
+nc: 3
+
+# 类别名称
+names:
+  0: scratch
+  1: missing
+  2: offset
